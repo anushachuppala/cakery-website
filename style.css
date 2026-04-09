@@ -287,22 +287,4 @@ h2 {
   .hamburger {
     display: block;
   }
-
-  .navlist {
-    position: absolute;
-    top: 0;
-    left: 0;
-    flex-direction: column;
-    justify-content: center;
-    background: var(--dawn-pink);
-    height: 100vh;
-    width: 60%;
-    z-index: 5;
-    transform: translate(-100%);
-    transition: 0.5s ease-in-out;
-  }
-
-  .navlist-active {
-    transform: translate(0%);
-  }
 }
