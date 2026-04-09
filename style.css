@@ -205,3 +205,62 @@ button,
   z-index: -1;
   filter: blur(150px);
 }
+
+/* store section */
+
+.other-section {
+  padding-block: 5rem;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+[data-type="centered-txt"] {
+  text-align: center;
+  max-width: 500px;
+  margin-block: 0.5rem;
+}
+
+.card-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.card {
+  width: 15rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.142) 0px 1px 4px;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 20px -5px,
+    rgb(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+}
+
+[data-type="category"] {
+  padding-block: 2.5rem;
+}
