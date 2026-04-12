@@ -278,3 +278,20 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
+/* Best food section  */
+.rating h4 {
+  color: var(--orange-clr);
+  font-size: 1.3rem;
+}
+
+.rating img {
+  width: 6rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
