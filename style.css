@@ -295,3 +295,25 @@ h2 {
   gap: 2rem;
   margin-top: 1rem;
 }
+
+/* Newslatter section */
+
+.form-container {
+  margin-top: 1rem;
+  border: 0.2rem solid var(--light-gray);
+  height: 3.5rem;
+  border-radius: 5rem;
+  padding: 0.25rem;
+}
+
+input[type="email"] {
+  height: 100%;
+  border-radius: 2rem 0 0 2rem;
+  border: none;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.input:focus {
+  outline: none;
+}
